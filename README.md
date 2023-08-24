@@ -1,6 +1,6 @@
 ## ⎔ Aesthetic-GRUB
 
-[![License](https://img.shields.io/badge/Licence-GPL-3-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/Licence-GPLv3-green.svg)](LICENSE)
 [![Latest](https://img.shields.io/badge/Download-latest-blue)](https://github.com/criptixo/Aesthetic-GRUB)
 
 ## 🚀 Installation
@@ -20,6 +20,6 @@
 | Bigsur                                                       |                                                              |
 | ![Bigsur](placeholder.jpg) |                                                              |
 
-## 📜 License
+## 📜 Licence
 
-Distributed under the GPL-3.0 license.
+Distributed under the GPL-3.0 licence.
