@@ -12,9 +12,9 @@
 ```
 ## 🖼 Preview
 
-| Amogus                                                       | Arcade                                                   |
+| OldBIOS                                                       | Arcade                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![Mahiro](placeholder.jpg) | ![Arcade](placeholder.jpg) |
+| ![OldBIOS](/screenshots/OldBIOS.png) | ![Arcade](placeholder.jpg) |
 | Atomic                                                   | Basil-tw                                                |
 | ![Atomic](placeholder.jpg) | ![Basil-tw](placeholder.jpg) |
 | Bigsur                                                       |                                                              |
