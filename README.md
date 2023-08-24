@@ -8,6 +8,7 @@
 ```bash
  git clone https://github.com/criptixo/Aesthetic-GRUB
  cd Aesthetic-GRUB
+ chmod +x ./install.sh
  sudo ./install.sh
 ```
 ## 🖼 Preview
