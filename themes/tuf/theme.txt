@@ -1,0 +1,87 @@
+# Global properties
+title-text: ""
+desktop-image: "tuf-background.png"
+desktop-color: "#000000"
+terminal-font: "Terminus Regular 32"
+terminal-box: "terminal_box_*.png"
+terminal-left: "30%"
+terminal-top: "60%"
+terminal-width: "40%"
+terminal-height: "30%"
+terminal-border: "1"
+
+# Boot menu
++ boot_menu {
+  left = 30%
+  top = 60%
+  width = 40%
+  height = 30%
+  item_font = "Terminus Bold 32"
+  item_color = "#5d590f"
+  selected_item_color = "#fff42e"
+  item_height = 32
+  item_spacing = 1
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
+# Countdown message
++ label {
+  left = 0
+  top = 100%-64
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  # DE
+  # text = "Start in %d Sekunden."
+  # EN
+  text = "Booting in %d seconds"
+  # ES
+  # text = "Arranque en %d segundos"
+  # FR
+  # text = "Démarrage automatique dans %d secondes"
+  # IT
+  # text = "Avvio in %d secondi"
+  # NO
+  # text = "Starter om %d sekunder"
+  # PT
+  # text = "Arranque automático dentro de %d segundos"
+  # RU
+  # text = "Загрузка выбранного пункта через %d сек."
+  # UA
+  # text = "Автоматичне завантаження розпочнеться через %d сек."
+  # zh_CN
+  # text = "在 %d 内启动"
+  color = "#cb0000"
+  font = "Terminus Regular 32"
+}
+
+# Navigation keys hint 
++ label {
+  left = 0
+  top = 100%-32
+  width = 100%
+  align = "center"
+  # DE
+  # text = "System mit ↑ und ↓ auswählen und mit Enter bestätigen."
+  # EN
+  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
+  # ES
+  # text = "Use las teclas ↑ y ↓ para cambiar la selección, Enter para confirmar"
+  # FR
+  # text = "Choisissez le système avec les flèches du clavier (↑ et ↓), puis validez avec la touche Enter (↲)"
+  # IT
+  # text = "Usa i tasti ↑ e ↓ per cambiare la selezione, premi Invio ↲ per confermare"
+  # NO
+  # text = "Bruk ↑ og ↓ for å endre menyvalg, velg med Enter"
+  # PT
+  # text = "Use as teclas ↑ e ↓ para mudar a seleção, e ENTER para confirmar"
+  # RU
+  # text = "Используйте клавиши ↑ и ↓ для изменения выбора, Enter для подтверждения"
+  # UA
+  # text = "Використовуйте ↑ та ↓ для вибору, Enter для підтвердження"
+  # zh_CN
+  # text = "使用 ↑ 和 ↓ 键移动选择条，Enter 键确认"
+  color = "#227dff"
+  font = "Terminus Regular 32"
+}
