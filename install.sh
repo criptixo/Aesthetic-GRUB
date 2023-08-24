@@ -46,8 +46,6 @@ function select_theme() {
             dirs[i++]="${d%/}"
         done
 
-    echo_warning "\nI found  the following template(s) in the themes directory:"
-
     echo "0 | Abort program"
     for((i=1;i<=${#dirs[@]};i++))
         do
