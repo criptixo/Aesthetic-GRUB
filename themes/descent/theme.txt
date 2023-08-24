@@ -1,0 +1,131 @@
+# Theme "descent"
+# This theme is based on the incredible game „Descent“ wich was
+# published in th 90s from parallax Software
+#
+# It works only properly with a resolution of 1280x800
+# See file readme how to use with GRUB
+# See file copyright for copyrights 
+#
+#
+
+# Global settings:
+# ----------------------
+
+# We need this, to disable the standardtext
+title-text: ""
+
+# Backgroundimage
+desktop-image: "background1280x800.png"
+
+#Terminalsettings
+terminal-font: "Unknown Regular 16"
+
+# Components:
+#-------------------------
+
++ hbox {
+    top = 180
+    left = 510
+
+    + label { font = "Descent ][ Score Regular 18" color = "#266226" text = "Press" }
+    + label { font = "Descent ][ Score Regular 18" color = "#3da03d" text = " enter "}
+    + label { font = "Descent ][ Score Regular 18" color = "#266226" text = "to launch"}
+}
+
+#Text as Image because of stylish design
++ image {
+    top = 140
+    left = 420
+    file = "select_os.png"
+}
+
+# The Boot_menu shows every found Operatingsystem
++ boot_menu {
+
+#The width property is important for the position of the scrollbar. If you choose a wrong value
+#the scrollbar appears at an unexpected  position.
+
+    top = 230
+    left = 167
+
+    width = 1040
+    height = 435
+
+
+    item_font = "Descent ][ Score Regular 14"
+    selected_item_font 	= "Descent ][ Logo Bold 18"
+    item_color = "#266226"
+    selected_item_color = "#3da03d"
+    item_height = 20
+    item_spacing = 5
+    item_padding = 20
+    icon_width = 0
+#    item_icon_space = -10
+
+    menu_pixmap_style = "menu_*.png"
+
+# The scrollbar is part of the right menu_pixmap_style (menu_e.png)
+    scrollbar = true
+    scrollbar_width = 104
+    scrollbar_frame = "scrollframe_*.png"
+    scrollbar_thumb = "scroll_thumb_*.png"
+}
+
+#Two lines of text
++ vbox {
+    top = 580
+    left = 337
+    + label {
+        height = 20
+        align = "center"
+        font = "Descent ][ Score Regular 14"
+        color = "#266226"
+        text = "Press „e“ to edit the highlightet item"
+    }
+    + label {
+        align = "center"
+        font = "Descent ][ Score Regular 14"
+        color = "#266226"
+        text = "Press „c“ to open the Commandline-Shell"
+    }
+}
+
+# The progressbar at the right bottom 
++ progress_bar {
+    top = 716
+    left = 447
+    width = 385
+    height = 30
+    id = "__timeout__"
+    bar_style = "progressbar_*.png"
+    # text = "%d sec. "
+    highlight_style = "progresshigh_*.png"
+}
+
+# Following two labels would be better in a hbox-container, but if we do that,
+# the timeout do not work 
++ label {
+    top = 767
+    left = 528
+    color = "#d28f36"
+    font = "Descent ][ Score Regular 14"
+    text = "item launches in: "
+}
++ label {
+    top = 767
+    left = 683
+    id = "__timeout__"
+    color = "#3da03d"
+    font = "Descent ][ Score Regular 14"
+    text = "%d sec. "
+}
+
+#This label is only shown, if the countdown is interrupted by the user (e.g.
+# if the user presses Key-Down 
++ label {
+    top = 724
+    left = 554
+    font = "Descent ][ Score Regular 14"
+    text = "Countdown disabled"
+    color = "#266226"
+}
