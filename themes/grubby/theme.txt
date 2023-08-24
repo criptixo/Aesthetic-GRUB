@@ -1,0 +1,149 @@
+title-text: ""
+desktop-image: "background.png"
+
+
++ boot_menu
+{
+    width = 608
+    height = 550
+    left = BOOT_MENU_X
+    top = BOOT_MENU_Y
+    item_height = 25
+    item_spacing = 10
+    item_font = "Courier New Bold 16"
+    item_color = "#0F0"
+    selected_item_pixmap_style = "highlight_*.png"
+    icon_width = 10
+}
+
++ label
+{
+    id = "__timeout__"
+    left = PROGRESS_LBL_X
+    top = PROGRESS_LBL_Y
+    text = "Loading in %d seconds"
+    font = "Courier New Regular 16"
+    color = "#0C0"
+}
+
++ progress_bar
+{
+    id = "__timeout__"
+    width = 623
+    left = PROGRESS_BAR_X
+    top = PROGRESS_BAR_Y
+    highlight_style = "highlight_*.png"
+}
+
++ canvas
+{
+    width = 700
+    height = 700
+    left = TERMINAL_X
+    top = TERMINAL_Y
+
+    + vbox
+    {
+        left = 40
+        top = 35
+
+        + canvas
+        {
+            width = 600
+            height = 125
+
+            + image
+            {
+                file = "terminal-logo.png"
+                width = 160
+                height = 100
+            }
+
+            + vbox
+            {
+                left = 325
+
+                + label
+                {
+                    height = 27
+                    text = "Global Monopoly Industries"
+                    font = "Courier New Bold 16"
+                    color = "#0C0"
+                }
+
+                + label
+                {
+                    height = 18
+                    text = "Yesterday's Technology, Today"
+                    font = "Courier New Regular 16"
+                    color = "#0C0"
+                }
+
+                + label
+                {
+                    height = 18
+                    text = "(c) 2242-76"
+                    font = "Courier New Regular 16"
+                    color = "#0C0"
+                }
+            }
+        }
+
+        + vbox
+        {
+            + label
+            {
+                height = 50
+                text = "Initialising ... boot device found"
+                font = "Courier New Regular 16"
+                color = "#0C0"
+            }
+
+            + canvas
+            {
+                width = 600
+                height = 50
+
+                + label
+                {
+                    text = "Select operating system"
+                    font = "Courier New Bold 16"
+                    color = "#0F0"
+                }
+
+                + label
+                {
+                    top = 2
+                    text = "_______________________"
+                    font = "Courier New Bold 16"
+                    color = "#0F0"
+                }
+            }
+
+            + label
+            {
+                height = 18
+                text = "Press 'c' to enter the command-line interface"
+                font = "Courier New Regular 16"
+                color = "#0C0"
+            }
+
+            + label
+            {
+                height = 18
+                text = "Press 'e' to edit an entry"
+                font = "Courier New Regular 16"
+                color = "#0C0"
+            }
+        }
+    }
+}
+
++ image
+{
+    width = 700
+    height = 700
+    left = TERMINAL_X
+    top = TERMINAL_Y
+    file = "terminal.png"
+}

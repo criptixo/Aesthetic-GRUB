@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   id="svg5453"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="nitrux.svg"
+   inkscape:export-filename="/home/andreas/Owncloud/kde.org/cooperateDesign/grub/Breeze/icons/kaos.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs5455" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.0390625"
+     inkscape:cx="46.491362"
+     inkscape:cy="42.35802"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="true">
+    <sodipodi:guide
+       position="6.0000117,57.999996"
+       orientation="51.999969,0"
+       id="guide4097" />
+    <sodipodi:guide
+       position="6.0000117,6.0000264"
+       orientation="0,52"
+       id="guide4099" />
+    <sodipodi:guide
+       position="58.000012,6.0000264"
+       orientation="-51.999969,0"
+       id="guide4101" />
+    <sodipodi:guide
+       position="58.000012,57.999996"
+       orientation="0,-52"
+       id="guide4103" />
+    <sodipodi:guide
+       position="3.0000117,60.999996"
+       orientation="57.999969,0"
+       id="guide4105" />
+    <sodipodi:guide
+       position="3.0000117,3.0000264"
+       orientation="0,58"
+       id="guide4107" />
+    <sodipodi:guide
+       position="61.000012,3.0000264"
+       orientation="-57.999969,0"
+       id="guide4109" />
+    <sodipodi:guide
+       position="61.000012,60.999996"
+       orientation="0,-58"
+       id="guide4111" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid4115" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5458">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-384.57143,-483.798)">
+    <g
+       transform="matrix(0.4331588,0,0,0.43283582,373.42619,300.27498)"
+       id="layer1-3"
+       inkscape:label="Capa 1">
+      <path
+         style="display:inline;fill:#231f20;fill-opacity:1;stroke:none"
+         d="m 98.447266,-73.878906 0,134 134.000004,0 0,-134 -134.000004,0 z m 24.277344,26.75 0,0.0098 39.21094,51.9648441 39.21289,-51.9648441 1.87695,0 -25.84766,34.25586 c -0.065,0.084 -0.12254,0.162187 -0.18554,0.242187 l -0.40039,0.527344 c -0.6766,0.9404 -0.83933,2.513575 0.043,3.671875 l 0.6914,0.9160156 29.71289,39.3828124 1.12891,1.496094 -1.12891,0 -10.5957,0 -1.87891,0 -22.81836,-30.2421876 0,14.7148436 0,15.527344 -1.8789,0 -13.79297,-18.283203 -0.93945,-1.244141 -24.39649,-32.341797 c -1.5888,-2.1062 -4.64019,-0.68305 -4.61719,1.46875 l 0,50.400391 -3.40039,0 0,-62.498047 0,-2.490234 0,-4.011719 0,-9.023438 0,-2.476562 0.004,-0.002 z m 11.10547,0 1.87695,0 11.73633,0 0,0.01563 23.8457,31.601562 -0.9375,1.246094 -4.92383,6.5234375 -0.93945,1.2441406 -30.6582,-40.6308591 z m 34.36914,47.52343725 c -0.5505,0.029 -1.08867,0.23070625 -1.50977,0.62890625 l -3.81445,5.0566406 7.375,9.7753909 0,-14.683594 c -0.5361,-0.5359 -1.30348,-0.81734375 -2.05078,-0.77734375 z"
+         transform="translate(-65.8412,504.81139)"
+         id="path4614-9"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

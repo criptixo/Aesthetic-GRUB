@@ -1,0 +1,89 @@
+# GRUB2 gfxmenu Breeze styled theme.
+# Designed for 1024x768 resolution.
+# Forked from Axion by Legendary Bibo
+# Changed by Andreas Kainz
+
+# Global Property
+title-text: ""
+title-font: "Noto Sans Regular 12"
+title-color: "#000000"
+message-font: "Noto Sans Regular 14"
+message-color: "#FFFFFF"
+message-bg-color: "#f6f6f6"
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-box: "menu_bkg_*.png"
+terminal-font: "DejaVu Mono 14"
+
+# title
++ hbox {
+		top = 48
+		left = 50%-182
+		width = 366
+		+ label {text = "Select Operating System" color = "#f2f2f2" font = "Noto Sans Regular 32" align = "center"}
+}
+
+# Show the boot menu
++ boot_menu {
+		top = 29%
+		left = 50%-275
+		width = 550
+		height = 42%
+		item_font = "Noto Sans Regular 12"
+		selected_item_font = "Noto Sans Bold 14"
+		item_color = "#f2f2f2"
+		selected_item_color = "#f2f2f2"
+		item_height = 64
+		item_padding = 15
+		item_spacing = 5
+		icon_width = 64
+		icon_height = 64
+		item_icon_space = 20
+		selected_item_pixmap_style= "select_bkg_*.png"
+		menu_pixmap_style = "menu_bkg_*.png"
+		scrollbar = true
+		scrollbar_width = 24
+		scrollbar_thumb = ""
+		scrollbar_frame = ""
+}
+
+# Show a styled horizontal progress bar
++ progress_bar {
+		id = "__timeout__"
+		top = 72%
+		left = 50%-134
+		width = 268
+		height = 24
+		show_text = false
+		font = "Noto Sans Regular 10"
+		text_color = "#f2f2f2"
+		text = ""
+		bar_style = "progress_bar_*.png"
+		highlight_style = "progress_highlight_*.png"
+}
+
+# Show text progress bar
++ progress_bar {
+		id = "__timeout__"
+		top = 75%
+		left = 50%-174
+		height = 24
+		show_text = true
+		font = "Noto Sans Regular 10"
+		text_color = "#f2f2f2"
+		align = "center"
+		text = "@TIMEOUT_NOTIFICATION_LONG@"
+		bar_style = "progress_bar2_*.png"
+}
+
+# Show an informational message.
++ hbox {
+		top = 100%-27
+		left = 50%-182
+		+ label {text = "Enter: " font = "Noto Sans Regular 12" color = "#31363b" align = "center"}
+		+ label {text = "Boot Selection     " font = "Noto Sans Regular 12" color = "#31363b" align = "center"}
+		+ label {text = "E: " font = "Noto Sans Regular 12" color = "#31363b" align = "center"}
+		+ label {text = "Edit Selection     " font = "Noto Sans Regular 12" color = "#31363b" align = "center"}
+		+ label {text = "C: " font = "Noto Sans Regular 12" color = "#31363b" align = "center"}
+		+ label {text = "GRUB Commandline" font = "Noto Sans Regular 12" color = "#31363b" align = "center"}
+}

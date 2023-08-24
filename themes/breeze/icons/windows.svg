@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   id="svg5453"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="windows.svg"
+   inkscape:export-filename="/home/andreas/Owncloud/kde.org/cooperateDesign/grub/Breeze/icons/puppy.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs5455">
+    <style
+       id="style11957"
+       type="text/css"><![CDATA[
+    .fil0 {fill:#0078D6}
+   ]]></style>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.0390625"
+     inkscape:cx="31.952288"
+     inkscape:cy="19.549075"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="true">
+    <sodipodi:guide
+       position="6.0000117,57.999996"
+       orientation="51.999969,0"
+       id="guide4097" />
+    <sodipodi:guide
+       position="6.0000117,6.0000264"
+       orientation="0,52"
+       id="guide4099" />
+    <sodipodi:guide
+       position="58.000012,6.0000264"
+       orientation="-51.999969,0"
+       id="guide4101" />
+    <sodipodi:guide
+       position="58.000012,57.999996"
+       orientation="0,-52"
+       id="guide4103" />
+    <sodipodi:guide
+       position="3.0000117,60.999996"
+       orientation="57.999969,0"
+       id="guide4105" />
+    <sodipodi:guide
+       position="3.0000117,3.0000264"
+       orientation="0,58"
+       id="guide4107" />
+    <sodipodi:guide
+       position="61.000012,3.0000264"
+       orientation="-57.999969,0"
+       id="guide4109" />
+    <sodipodi:guide
+       position="61.000012,60.999996"
+       orientation="0,-58"
+       id="guide4111" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid4115" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5458">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-384.57143,-483.798)">
+    <g
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       id="g11971"
+       transform="matrix(0.21245421,0,0,0.21167883,387.57143,486.798)">
+      <g
+         id="Layer_x0020_1">
+        <metadata
+           id="CorelCorpID_0Corel-Layer" />
+        <g
+           id="_26257872464">
+          <path
+             d="M 125,22 C 174,14 224,7 273,0 l 0,2 0,128 c -49,0 -99,1 -148,1 0,-36 0,-73 0,-109 l 0,0 0,0 z"
+             class="fil0"
+             id="path5"
+             inkscape:connector-curvature="0"
+             style="fill:#0078d6" />
+          <path
+             d="m 0,39 c 37,-6 74,-11 112,-15 0,36 0,71 0,107 -38,0 -75,1 -112,1 l 0,-93 0,0 0,0 z"
+             class="fil0"
+             id="path7"
+             inkscape:connector-curvature="0"
+             style="fill:#0078d6" />
+          <path
+             d="m 0,143 c 37,0 74,1 112,0 0,36 0,72 0,108 C 74,246 37,241 0,236 l 0,-93 z"
+             class="fil0"
+             id="path29"
+             inkscape:connector-curvature="0"
+             style="fill:#0078d6" />
+          <path
+             d="m 125,144 c 49,0 99,0 148,0 l 0,124 0,6 c -49,-8 -99,-14 -148,-21 0,-36 0,-72 0,-109 l 0,0 z"
+             class="fil0"
+             id="path31"
+             inkscape:connector-curvature="0"
+             style="fill:#0078d6" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

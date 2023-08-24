@@ -1,0 +1,52 @@
+# Global Property
+title-text: "This is your last chance. After this, there is no turning back..."
+title-font: "DejaVu Sans Bold 14"
+title-color: "#FF9400"
+message-font: "DejaVu Sans Regular 14"
+message-color: "#8ac4f4"
+message-bg-color: "#f6f6f6"
+desktop-image: "background.png"
+desktop-color: "#2f2f2f"
+terminal-font: "DejaVu Mono 14"
+
+# Boot menu
++ boot_menu {
+		left = 15%
+		width = 700
+		top = 15%
+		height = 40%
+		item_font = "DejaVu Sans Bold 14"
+		selected_item_font = "DejaVu Sans Bold 14"
+		item_color = "#FF9400"
+
+		item_height = 48
+		item_padding = 15
+		item_spacing = 5
+		icon_width = 48
+		icon_height = 48
+		item_icon_space = 10
+		selected_item_pixmap_style= "select_bg_*.png"
+		scrollbar = true
+		scrollbar_width = 24
+}
+
+# Progress Bar
++ progress_bar {
+		id = "__timeout__"
+		left = 16%
+		width = 700
+		top = 80%
+		height = 30
+		show_text = false
+		font = "DejaVu Sans Bold 12"
+		text_color = "#000000"
+		bar_style = "bar_*.png"
+		highlight_style = "bar_hl_*.png"
+}
+
+# Hint
++ hbox {
+		top = 90%
+		left = 28%
+		+ label {text = "@KEYMAP_SHORT@" font = "DejaVu Sans 12" color = "#a1a1a1" align = "left"}
+}
