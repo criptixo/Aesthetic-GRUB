@@ -1,0 +1,52 @@
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-box: "box_terminal_*.png"
+terminal-font: "Bitstream Vera Sans Mono Roman 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+
++ boot_menu {
+  left = 50%
+  top = 25%
+  width = 35%
+  height = 60%
+  item_font = "Bitstream Vera Sans Bold 16"
+  item_color = "#ffffff"
+  selected_item_color = "#ffffff"
+  item_height = 40
+  item_spacing = 0
+  item_padding = 0
+  item_pixmap_style = "box_*.png"
+  selected_item_pixmap_style = "box_selected_*.png"
+}
+
+
++ label {
+  left = 16
+  top = 100%-36
+  width = 100%-16
+  align = "left"
+  color = "#ffffff"
+  font = "Bitstream Vera Sans Bold 16"
+  text = @KEYMAP_MIDDLE@
+}
+
+
++ progress_bar {
+  id = "__timeout__"
+  left = 0
+  top = 100%-16
+  height = 16
+  width = 100%
+  font = "Bitstream Vera Sans Bold 16"
+  text_color = "#ffffff"
+  text = ""
+  bar_style = "box_*.png"
+  highlight_style = "box_selected_*.png"
+}
+
