@@ -1,0 +1,41 @@
+# GTA::VC grub theme by Kshitij Subedi
+# 2subedikshitij@gmail.com
+
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "vc"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 47%
+  top = 45%
+  width = 33%
+  height = 60%
+  align="center"
+  item_font = "vc"
+  item_color = "#FF00B6"
+  selected_item_color = "#B83694"
+  item_height = 48
+  item_spacing = 8
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
+# Countdown message
++ label {
+  left = 0
+  top = 98%-70
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#FF00B6"
+  font = "vc"
+}
