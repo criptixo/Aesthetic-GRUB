@@ -13,9 +13,9 @@
 ```
 ## 🖼 Preview
 
-| OldBIOS                                                       | Arcade                                                   |
+| OldBIOS                                                       | CRT-Amber                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![OldBIOS](/screenshots/OldBIOS.png) | ![Arcade](placeholder.jpg) |
+| ![OldBIOS](/screenshots/OldBIOS.png) | ![Arcade](/screenshots/CRT-Amber.gif) |
 | Atomic                                                   | Basil-tw                                                |
 | ![Atomic](placeholder.jpg) | ![Basil-tw](placeholder.jpg) |
 | Bigsur                                                       |                                                              |
